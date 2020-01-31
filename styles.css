@@ -25,7 +25,7 @@ header {
 
 
 .scoreBoard{
-    margin: 30px auto;
+    margin: 40px auto;
     border:3px solid white;
     border-radius: 4px;
     width: 200px;
@@ -92,6 +92,7 @@ img{
     font-size: 20px;
 }
 
+
 footer {
     position: absolute;
     bottom: 0;
@@ -104,4 +105,9 @@ footer p {
     text-align: center;
     padding: 15px;
     font-size: 12px;
+    letter-spacing: 1px;
+}
+
+footer a:link {
+    color: white;
 }
