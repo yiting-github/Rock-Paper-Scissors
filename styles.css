@@ -5,15 +5,24 @@
     font-family: 'Lato', sans-serif;
 }
 
+html{
+    height:100%;
+}
 body {
+    height:100%;
     background-color: #1A1335;
 }
 
-header{
+.wrapper {
+    min-height: 100%;
+}
+header {
+    width: 100%;
     background: white;
     text-align: center;
     padding: 20px;
 }
+
 
 .scoreBoard{
     margin: 30px auto;
@@ -81,4 +90,18 @@ img{
     text-align: center;
     color:white;
     font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background: #292147;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
 }

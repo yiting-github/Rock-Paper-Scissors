@@ -6,32 +6,42 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header><h1>Rock Paper Scissors</h1></header>
-     
-        <div class="scoreBoard">
-            <div id="user" class="entity">user</div>
-            <div id="comp" class="entity">comp</div>
-            <span id="userScore" class="scores">0</span>:<span id="compScore" class="scores">0</span>
-        </div>
-        <div class="result">
-            <p id="resultText">Paper cover rock. You win!</p>
-        </div>
+        <div class="wrapper">
+            <header><h1>Rock Paper Scissors</h1></header>
+       
+            <div class="scoreBoard">
+                <div id="user" class="entity">user</div>
+                <div id="comp" class="entity">comp</div>
+                <span id="userScore" class="scores">0</span>:<span id="compScore" class="scores">0</span>
+            </div>
+            <div class="result">
+                <p id="resultText">Paper cover rock. You win!</p>
+            </div>
+    
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="images/rock.png">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="images/paper.png">
+                </div>
+                <div class="choice" id="scissors">
+                    <img src="images/scissors.png">
+                </div>
+            </div>
+    
+            <p id="actionMessage">Make your move.</p>    
 
-        <div class="choices">
-            <div class="choice" id="rock">
-                <img src="images/rock.png">
-            </div>
-            <div class="choice" id="paper">
-                <img src="images/paper.png">
-            </div>
-            <div class="choice" id="scissors">
-                <img src="images/scissors.png">
-            </div>
-        </div>
-
-        <p id="actionMessage">Make your move.</p>
 
         <script src="app.js"></script>
+
+        <footer>
+            <p>Attributes
+            <br>rock, scissors icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">www.flaticon.com</a> 
+            <br>paper icon made by <a href="https://www.flaticon.com/authors/pixel-perfect">Pixel Perfect</a> from <a href="https://www.flaticon.com">www.flaticon.com</a></p>
+        </footer>
+        </div>
+        
     </body>
 
 </html>
